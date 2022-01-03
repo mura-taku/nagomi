@@ -865,3 +865,71 @@
     }
   }
 }
+.sub-mainvisual{
+  position: relative;
+  @include background();
+  .mainvisual-content{
+    position: absolute;
+    @include center();
+    top: -10.1rem;
+    h1{
+      color: black;
+    }
+    .breadcrumb{
+      margin-top: 1rem;
+      span{
+        margin-left: 1rem;
+        &:first-child{
+          margin-left: 0
+        }
+      }
+    }
+  }
+  .wave{
+    @include background();
+    background-image: url('../images/common/nami-pc.png');
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    height: 100px;
+    @media(min-width: 1200px){
+      height: 21vh;
+    }
+  }
+  @media(max-width: 768px){
+    height: 300px;
+  }
+  @media(min-width: 768px){
+    height: 500px;
+  }
+  @media(min-width: 1200px){
+    .mainvisual-content{
+      left: 20%;
+      right: auto;
+    }
+  }
+  &.guide{
+    background-image: url('../images/guide/cover.jpg');
+  }
+  &.medical{
+    background-image: url('../images/medical/cover.jpg');
+  }
+  &.counseling{
+    background-image: url('../images/medical/cover.jpg');
+  }
+  &.about{
+    background-image: url('../images/about/cover.jpg');
+  }
+  &.contact{
+    background-image: url('../images/contact/cover.jpg');
+  }
+  &.recruit{
+    background-image: url('../images/recruit/cover.jpg');
+  }
+  &.news{
+    background-image: url('../images/news/cover.jpg');
+  }
+  &.column{
+    background-image: url('../images/column/cover.jpg');
+  }
+}
