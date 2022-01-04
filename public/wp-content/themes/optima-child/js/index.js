@@ -12,3 +12,31 @@ $(function(){
       }
   })
 })
+
+$('.slider').slick({
+  arrows:false,
+  fade: true,
+  asNavFor:'.thumb',
+  speed: 1000,
+});
+$('.thumb').slick({
+  asNavFor:'.slider',
+  arrows:true,
+  focusOnSelect: true,
+  slidesToScroll:1,
+  slidesToShow:8,
+  responsive:[
+    {
+        breakpoint: 1200,
+        settings:{
+            slidesToShow:5,
+        }
+    },
+    {
+        breakpoint: 768,
+        settings:{
+            slidesToShow:3,
+        }
+    },
+]
+});

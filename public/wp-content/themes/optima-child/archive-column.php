@@ -8,5 +8,4 @@
     </div>
     <div class="wave"></div>
   </div>
-
 <?php get_footer(); ?>

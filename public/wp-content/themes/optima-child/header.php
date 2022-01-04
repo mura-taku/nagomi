@@ -5,6 +5,8 @@
     <?php echo((gt3_option('responsive') == "1") ? '<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">' : ''); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="pingback" href="<?php esc_url(bloginfo('pingback_url')); ?>">
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri('slick/slick-theme.css'); ?>">
+    <link rel="stylesheet" href="<?php echo get_theme_file_uri('slick/slick.css'); ?>">
     <link rel="stylesheet" href="<?php echo get_theme_file_uri('css/style.css'); ?>">
     <?php 
         wp_head(); 

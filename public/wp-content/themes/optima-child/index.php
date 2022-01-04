@@ -165,9 +165,9 @@
     </section>
     <section class="top-sec03">
         <div class="sec-ttl">
-            <span>診療方針</span>
+            <span>Feature</span>
             <h2>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/top/ico-1.png')); ?>"><p>植家クリニック<br class="tb-none pc-none"><span class="orange"><span class="big">5</span>つ</span>の特徴</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/top/ico-1.png')); ?>"><p>むすびクリニック<br class="tb-none pc-none"><span class="orange"><span class="big">5</span>つ</span>の特徴</p>
             </h2>
         </div>
         <div class="inner">
@@ -350,26 +350,14 @@
                 <div class="container">
                     <div class="box">
                         <a href="<?php echo esc_url(get_theme_file_uri()); ?>">
-                            <div class="image"><img src="<?php echo esc_url(get_theme_file_uri('images/top/r-ico1.png')); ?>" alt=""></div>
-                            <div class="text">臨床心理士<span>（公認心理士）</span></div>
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="<?php echo esc_url(get_theme_file_uri()); ?>">
-                            <div class="image"><img src="<?php echo esc_url(get_theme_file_uri('images/top/r-ico2.png')); ?>" alt=""></div>
-                            <div class="text">精神保健福祉士</div>
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="<?php echo esc_url(get_theme_file_uri()); ?>">
-                            <div class="image"><img src="<?php echo esc_url(get_theme_file_uri('images/top/r-ico3.png')); ?>" alt=""></div>
-                            <div class="text">看護師</div>
-                        </a>
-                    </div>
-                    <div class="box">
-                        <a href="<?php echo esc_url(get_theme_file_uri()); ?>">
                             <div class="image"><img src="<?php echo esc_url(get_theme_file_uri('images/top/r-ico4.png')); ?>" alt=""></div>
-                            <div class="text">医療事務</div>
+                            <div class="text">事務</div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="<?php echo esc_url(get_theme_file_uri()); ?>">
+                            <div class="image"><img src="<?php echo esc_url(get_theme_file_uri('images/top/r-ico1.png')); ?>" alt=""></div>
+                            <div class="text">心理士</span></div>
                         </a>
                     </div>
                     <div class="box">

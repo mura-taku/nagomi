@@ -65,10 +65,10 @@
             <li><a href="<?php echo esc_url(home_url('guide')); ?>">初めての方へ</a></li>
             <li><a href="<?php echo esc_url(home_url('medical')); ?>">診療について</a>
               <ul>
-                <li class="none"><a class="shin" href="<?php echo esc_url(home_url('fee')); ?>"><span><img src="<?php echo esc_url(get_theme_file_uri('images/common/L.png')); ?>" alt=""></span>診察料に関する詳細事項</a></li>
+                <li class="none"><a class="shin" href="<?php echo esc_url(home_url('fee')); ?>"><span><img src="<?php echo esc_url(get_theme_file_uri('images/common/L.png')); ?>" alt=""></span>自立支援医療について</a></li>
               </ul>
             </li>
-            <li><a href="<?php echo esc_url(home_url('counseling')); ?>">カウンセリング</a></li>
+            <li><a href="<?php echo esc_url(home_url('counseling')); ?>">カウンセリングについて</a></li>
             <li><a href="<?php echo esc_url(home_url('about')); ?>">クリニックについて</a></li>
           </ul>
           <ul>
